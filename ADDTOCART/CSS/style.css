@@ -38,3 +38,28 @@ button{
     font-family: 'Rubik, sans-serif';
     margin: 10px 0;
 }
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li{
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik, sans-serif';
+    flex-grow: 1;
+    margin: 10px 0;
+    background-color: rgb(227, 236, 147);
+}
+
+ul li:hover{
+    background-color: rgb(198, 216, 35);
+}
+
